@@ -19,7 +19,8 @@ class ClientFactory extends Factory
             'document' => $faker->numerify('#########'),
             'telephone' => $faker->numerify('3#########'),
             'address' => $faker->address(),
-            
+            'email' => $faker->email()
+
         ];
     }
 }
